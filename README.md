@@ -1,5 +1,7 @@
 # 휴대폰 본인 인증 UI 데모
 
+데모 : https://oliverne.github.io/sms-auth-ui/
+
 다른 런타임 라이브러리 없이 TypeScript와 DOM API만 가지고 만든 SMS 본인 인증 UI 예제입니다.
 
 표준 [Web Component](https://www.webcomponents.org/) 방식을 사용하여 만들었습니다. 직접 만들어보니 [lit-element](https://lit-element.polymer-project.org/) 같은 걸 쓰는 게 훨씬 좋습니다.
