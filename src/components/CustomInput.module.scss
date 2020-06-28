@@ -1,0 +1,33 @@
+.field {
+  padding: 12px 0;
+}
+
+.label {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  color: #606060;
+  font-weight: 500;
+  border-bottom: 1px solid #dedede;
+  background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-right'%3E%3Cpolyline points='9 18 15 12 9 6'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: right 10px;
+}
+
+.invalid {
+  .input {
+    border-color: #ea3323;
+  }
+  .label {
+    color: #eb3c2e;
+  }
+}

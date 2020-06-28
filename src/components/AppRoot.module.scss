@@ -1,0 +1,80 @@
+.main {
+  box-sizing: border-box;
+  width: 411px;
+  min-height: 80vh;
+  margin: 50px auto 20px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 415px) {
+  .main {
+    width: 90%;
+    margin-top: 5%;
+  }
+}
+
+.header {
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+.desc {
+  color: #44a4f8;
+  font-size: 12px;
+}
+
+.form {
+  padding: 25px 0 0 0;
+  color: #999;
+  font-size: 13px;
+}
+
+.iconQuestion {
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-help-circle'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cpath d='M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3'%3E%3C/path%3E%3Cline x1='12' y1='17' x2='12.01' y2='17'%3E%3C/line%3E%3C/svg%3E");
+  background-size: 100%;
+  opacity: 0.4;
+  vertical-align: middle;
+}
+
+.notice {
+  text-indent: -22px;
+  margin-left: 30px;
+  padding: 15px 0 24px 0;
+  line-height: 1.4;
+  letter-spacing: -0.04em;
+  word-break: keep-all;
+}
+
+.submit {
+  padding: 0;
+}
+
+.submitButton {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 14px;
+  background-color: #2e3135;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  &[disabled] {
+    background-color: #aeaeae;
+    cursor: default;
+  }
+}
