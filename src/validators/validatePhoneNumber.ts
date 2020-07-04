@@ -1,6 +1,12 @@
+/**
+ * @param value Phone number
+ * @return Tuple of [Validated?, Formatted value, Normalized value]
+ */
 export default function validatePhoneNumber(
   value: string
 ): [boolean, string, string] {
+  if (typeof value !== 'string') return [false, '', '']
+
   const onlyNumber = value.replace(/\D+/g, '')
 
   let formatted = onlyNumber
