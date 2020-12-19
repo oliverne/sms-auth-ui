@@ -58,8 +58,6 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              hmr: IS_DEV,
-              reloadAll: true,
               publicPath: './',
             },
           },
@@ -125,9 +123,7 @@ module.exports = {
     },
     minimizer: [
       new TerserPlugin({
-        cache: true,
         parallel: true,
-        sourceMap: true,
         terserOptions: {
           // https://github.com/webpack-contrib/terser-webpack-plugin#terseroptions
         },
